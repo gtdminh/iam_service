@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/julienschmidt/httprouter"
+	"github.com/gorilla/mux"
 )
 
 type Server struct {
-	Router *httprouter.Router
+	Router *mux.Router
 }
